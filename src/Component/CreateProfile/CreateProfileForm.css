@@ -1,0 +1,126 @@
+.createprofileslectfield .ant-select-selection.ant-select-selection--single {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.createprofileslectfield .ant-select-selection__rendered {
+    margin-left: 0;
+    line-height: 26px;
+}
+.createprofileslectfield .ant-select-arrow{
+    top: 43%;
+    right: 0;
+}
+.loginFormNew .createprofileslectfield .ant-select-selection__placeholder{
+    color: #a09f9f;
+    font-weight: 500;
+    font-size: 13px;
+}
+.createprofileslectfield .ant-select-arrow svg {
+    fill: #888585;
+}
+.createprofileslectfield .ant-select-focused .ant-select-selection, .createprofileslectfield .ant-select-selection:focus,.createprofileslectfield .ant-select-selection:active{
+    box-shadow: none;
+}
+.profilecreate p.signinheader {
+    margin-left: 29px;
+    font-size: 27px;
+    margin-bottom: 29px;
+}
+.profilecreate .ant-card.logincard{
+    height: auto;
+    /* overflow-y: scroll; */
+}
+.left_arrow {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    cursor: pointer;
+}
+.close_btn {
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    top: 27%;
+    right: 5%;
+    cursor: pointer;
+}
+.profilecreate .bgColor{
+    position: relative;
+    height: 45%;
+}
+.profilecreate .loginpg{
+    top: 8%;
+}
+.profilecreate .loginFormNew{
+    padding: 20px 13px 0 13px;
+}
+@media only screen and (min-width:360px) and (max-width: 973px) {
+
+.profilecreate .ant-card.logincard{
+    height: 520px;
+    overflow-y: scroll;
+}
+}
+
+.genderfield, .spcliztionfield, .eductnfield, .statefield {
+    width: 100%;
+    position: relative;
+}
+.genderfield::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../images/Gender.png');
+    width: 20px;
+    height: 25px;
+    left: 0;
+    z-index: 999;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.spcliztionfield::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../images/Specialization.png');
+    width: 18px;
+    height: 20px;
+    left: 0;
+    z-index: 999;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.eductnfield::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../images/Education.png');
+    width: 20px;
+    height: 25px;
+    left: 0;
+    z-index: 999;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.statefield::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../images/City.png');
+    width: 20px;
+    height: 25px;
+    left: 0;
+    z-index: 999;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.experiencefield label {
+    color: #a09f9f;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: poppins;
+}
+.exprncicn, .licenceicn{
+    width: 20px  !important;
+}

@@ -1,0 +1,64 @@
+p.profiledetailsectiontitle {
+    padding: 0;
+    display: flex;
+    align-items: end;
+    font-size: 17px;
+    font-weight: 600;
+    color: #6378e5;
+    border-bottom: 1px solid #f3f3f3;
+    margin-top: 40px
+}
+img.persondetailimg {
+    height: 23px;
+    width: 23px;
+    margin-right: 8px;
+}
+span.profileparatitle {
+    color: #989898;
+}
+p.profilepara {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #484848;
+}
+.editprofile-button{
+    float: right;
+    border-radius: 3px;
+    height: 28px;
+    width: 9%;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    font-family: 'Poppins',sans-serif;
+    background: white;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.12);
+    /* justify-content: center; */
+    padding: 0;
+    opacity: 0.9;
+    border: none;
+}
+.editprofile-button span{
+    color:#6378e6;
+}
+.editprofile-button:hover{
+    opacity: 1;
+    background: white;
+    border: none;
+
+}
+.editprofile-button:focus{
+    opacity: 1;
+    background: white;
+    border: none;
+
+}
+
+@media only screen and (min-width:360px) and (max-width: 973px) {
+
+.sectionnamePart{
+    padding-right: 14px;
+}
+.editprofile-button{
+    width: 23%;
+}
+}

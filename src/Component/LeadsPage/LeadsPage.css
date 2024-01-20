@@ -1,0 +1,29 @@
+/* ------ Leads page css start---------- */
+.leadtable .MuiPaper-root.MuiPaper-elevation2.MuiPaper-rounded{
+        width: 97%;
+        margin: 16px;
+}
+
+.viewaction{
+    margin-left: 13px;
+}
+/* --------Leads page css end----------- */
+
+
+/*------------------ Responsive------------------ */
+@media only screen and (min-width:360px) and (max-width: 973px) {
+    .leadtable .MuiPaper-root.MuiPaper-elevation2.MuiPaper-rounded{
+        margin: 0;
+        width: auto;
+    }
+    .addleadsmain .ant-drawer-content-wrapper{
+        width:100% !important;
+    }
+    .leadtable{
+        height: 100% ;
+        overflow-y: auto;
+    }
+    .leadtable th.MuiTableCell-root.MuiTableCell-head{
+        z-index: 0;
+    }
+}

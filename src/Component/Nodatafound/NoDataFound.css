@@ -1,0 +1,29 @@
+.background {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+img.searchimage {
+    height: 55px;
+    width: 55px;
+}
+p.font {
+    font-size: 18px;
+    color: #d0cece;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.5px;
+    /* margin-top: 25px; */
+}
+p.oops {
+    font-size: 25px;
+    color: #ababab;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 0;
+    line-height: 30px;
+}

@@ -1,0 +1,159 @@
+.loginpg {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 700px;
+}
+.bgColor {
+    background:url(../../images/Sign_in_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+.loginpage{
+    position: relative;
+    height: 100%;
+}
+.ant-card.logincard {
+    border-radius: 8px;
+    box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.11);
+    height: 350px;
+    width: 85% ;
+    margin: 0 auto;
+}
+p.signinheader {
+    margin-bottom: 32px;
+    font-size: 29px;
+    font-family: 'Poppins',sans-serif;
+    color: #fffffe;
+    font-weight: 600;
+    margin-left: 41px;
+    letter-spacing: 0.5px;
+}
+.registertext{
+    text-align: center;
+    /* margin-top: 108px; */
+    font-size: 13px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.5px;
+    color: #a09f9f;
+    position: absolute;
+    bottom: 4%;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    font-weight: 500;
+}
+span.clickingelement {
+    color: #4f74e9;
+}
+.loginFormNew input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.loginFormNew input::-webkit-input-placeholder{
+    color: #a09f9f;
+    font-weight: 500;
+    font-size: 13px;
+}
+.loginFormNew .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled){
+  border-color: none;
+  box-shadow: none;
+}
+.loginFormNew .ant-input-affix-wrapper .ant-input:not(:first-child){
+    padding-left: 37px;
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+i.far.fa-user {
+    font-size: 16px;
+    margin-left: -9px;
+}
+.paddingbt {
+    margin-bottom: 22px;
+}
+p.forgotpaswrdtext {
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    margin-top: -6px;
+    /* text-align: center; */
+    /* margin-top: 99px; */
+    /* font-size: 13px; */
+    /* font-family: 'Poppins',sans-serif; */
+    letter-spacing: 0.5px;
+    color: #8c8c8c;
+}
+.login-form-button {
+    width: 35%;
+    border-radius: 32px;
+    margin-top: 28px;
+    height: 42px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    /* text-transform: capitalize; */
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    background: linear-gradient(to left, #7356aa,#6a64c9, #6278e3,#6379e6);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.12)
+}
+.login-form-button:hover{
+    background: linear-gradient(to left, #7356aa,#6a64c9, #6278e3,#6379e6);
+   border-color: #637be7 !important;
+}
+.logincard .ant-card-body{
+    padding: 11px;
+}
+.loginFormNew {
+    padding: 20px 13px 0 13px;
+}
+p.privacytext {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.5px;
+    color: #949292;
+    font-weight: 500;
+}
+span.underline {
+    border-bottom: 1px solid rgba(220, 220, 220, 0.89);
+}
+img.inputicon {
+    width: 15px;
+    margin-left: -7px;
+}
+img.privacyicon {
+    width: 12px;
+    height: 14px;
+    margin-right: 12px;
+}
+.textcenter {
+    text-align: center;
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+p.error {
+    position: absolute;
+    top: 6px;
+}
+/*------------------ Responsive------------------ */
+@media only screen and (min-width:360px) and (max-width: 973px) {
+    .loginpg{
+        width: 100%
+    }
+    .login-form-button {
+        width: 100%;
+        margin-top: 37px;
+    }
+    p.forgotpaswrdtext {
+        margin-top: -10px;
+    }
+}

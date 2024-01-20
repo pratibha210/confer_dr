@@ -1,0 +1,193 @@
+/* top bar part */
+span.titlename {
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.sectionnamePart {
+    background: linear-gradient(to left, #7356aa,#6a64c9, #6278e3,#6379e6);
+    padding: 13px 0 13px 0;
+    margin-top: 68px;
+}
+
+.sectionnamePart .arrow_back {
+    font-size: 20px;
+    color: white;
+    margin: 0 12px 0 13px;
+}
+
+/* tabsection part */
+.tabsectionPart .ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar {
+    width: 32%;
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.tabsectionPart .ant-tabs-nav-container {
+    border-radius: 24px;
+    background-color: #f0f1f6;
+    height: 42px !important;
+}
+.tabsectionPart .ant-tabs-tab {
+    border: none !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    padding: 1px 26px !important;
+    /* width: 108px; */
+    text-align: center;
+    color: #727272;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px !important;
+}
+.tabsectionPart .ant-tabs.ant-tabs-card .ant-tabs-tab-active {
+    padding-bottom: 1px;
+    color: white;
+    background: #637be7 !important;
+    border-radius: 24px;
+}
+
+/* Card Section */
+.cardsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 22px;
+    
+}
+.tabcard {
+    box-shadow: 3px 2px 10px #0000000a;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #f3f3f3;
+
+
+}
+.cardsection .ant-card-body{
+    padding: 6px 20px 7px 14px;
+}
+p.personnametext {
+    font-family: 'Poppins',sans-serif;
+    font-size: 13px;
+    color: black;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+p.bookdetailstext {
+    margin-bottom: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 11px;
+    color: #959aa2;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+p.bookedtext {
+    font-family: 'Poppins',sans-serif;
+    font-size: 11px;
+    color: #7185e9;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+}
+p.nobooking {
+    font-family: 'Poppins',sans-serif;
+    font-size: 13px;
+    color: #b7bdcc;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 7px 0 7px 0;
+}
+.nobookingcard {
+    border-radius: 8px;
+}
+.deletebtn{
+    border: none;
+    box-shadow: none;
+}
+.deletebtn img {
+    width: 12px;
+}
+.consultations-area .tabcard{
+    min-height: 85px;
+    max-height: 85px;
+    padding-right: 10px;
+}
+
+@media only screen and (min-width:360px) and (max-width: 767px){
+    .cardsection{
+       /* min-height: 280px; */
+       /* max-height: 475px; */
+       overflow-x: scroll;
+       /* padding-top: 35%; */
+    }
+    .todaycards{
+        padding-top: 0;
+    }
+    .deletebtn img {
+        width: 15px;
+    }
+    .tabcards {
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (min-width:360px) and (max-width: 973px) {
+.tabsectionPart .ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.sectionnamePart .arrow_back {
+    font-size: 20px;
+    color: white;
+    margin: 0 12px 0 11px;
+}
+.sectionnamePart {
+    margin-top: 0;
+}
+}
+@media only screen and (min-width:1025px){
+    .sectionnamePart{
+        padding: 13px 18px; 
+    }
+    .tabsectionPart .ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar{
+        width: 100%;
+        padding: 20px;
+    }
+    .tabcard{
+        width: 100% !important;
+        min-height: 85px;
+    }
+    .cardsection {
+        display: block;
+        padding: 0 20px;
+    }
+    .tabsectionPart .ant-tabs-nav-container{
+        background-color: transparent;
+        width: 33%;
+        /* color: #f0f1f6 */
+    }
+    .formtab.tabsectionPart .ant-tabs-nav-container{
+        background-color: transparent;
+        width: initial;
+        /* color: #f0f1f6 */
+    }
+    .tabsectionPart .ant-tabs-tab{
+        background-color: #eeeeee !important;
+    }
+    .tabsectionPart .ant-tabs-nav.ant-tabs-nav-animated{
+        background-color: #eee;
+        border-radius: 24px;
+    }
+}

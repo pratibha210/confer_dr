@@ -1,0 +1,229 @@
+.sectionnamePart.appointmentdetailsection{
+    height: 32%;
+    position: relative;
+}
+img.confirmsignimg {
+    height: 37px;
+    width: 37px;
+}  
+.confirmation_detail{
+    text-align: center;
+    margin-top: 34px;
+}
+p.confirmmsg {
+    margin-bottom: 0px;
+    margin-top: 9px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+p.confirmclinic {  
+    color: white;
+    font-family: 'Poppins';
+    font-size: 10px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.middlecarddetail .ant-card-body{
+    padding: 7px 7px 7px 10px;
+}
+.cardprofileleftprt span.ant-avatar.ant-avatar-circle.ant-avatar-icon{
+    height: 45px;
+    width: 45px;
+    line-height: 49px;
+    font-size: 27px;
+    border: 1px solid #2069ba;
+}
+.cardprofileleftprt sup.ant-scroll-number.ant-badge-dot {
+    position: absolute;
+    top: 36px;
+    height: 10px;
+    right: 3px;
+    width: 10px;
+    border: 1px solid white;
+    background-color: #56f0cb;
+}
+/* .middlecarddetail{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -27px;
+} */
+.middlecarddetail .ant-card{
+    border-radius: 8px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -27px;
+    box-shadow: 1px 1px 20px #0000001c;
+}
+p.usernametext {
+    margin-bottom: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-top: 7px;
+    margin-left: 3px;
+    color: black;
+}
+.userid {
+    margin-bottom: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    color: #0872c5;
+    margin-left: 6px;
+}
+.datetimecard {
+    margin-top: 40px;
+}
+.datetimecard .ant-card{
+    box-shadow: 0 1px 18px #00000017;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.datetimecard .ant-card-body{
+padding:10px 8px 10px 14px;
+}
+img.dateimg {
+    height: 18px;
+    width: 18px;
+}
+.carddateiconleftprt:after {
+    content: '';
+    height: 26px;
+    width: 1px;
+    background: #ebebeb;
+    position: absolute;
+    right: 3px;
+    top: -3px;
+}
+.datetimeinfo {
+    font-family: 'Poppins',sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    color: #abaaaa;
+    margin-left: 6px;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+.eprescrptionbtn {
+    padding: 0 9px 0 9px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 36px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 24px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.5px;
+    background: linear-gradient(to left, #7356aa,#6a64c9, #6278e3,#6379e6);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.12);
+}
+.eprescrptionbtn:active,.eprescrptionbtn:hover{
+    background: linear-gradient(to left, #7356aa,#6a64c9, #6278e3,#6379e6);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.12);
+}
+.selectcategory {
+    text-align: center;
+    margin-top: 58px;
+}
+.selectcategory .ant-select-selection.ant-select-selection--single {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+}
+.selectcategory .ant-select-selection.ant-select-selection--single:active,.selectcategory .ant-select-selection.ant-select-selection--single:focus {
+    box-shadow: none;
+}
+
+.selectcategory .ant-select{
+    width: 61%
+}
+.selectcategory .ant-select-selection__rendered{
+    margin-left: 18px;
+}
+.upload_btn {
+    text-align: center;
+}
+button.ant-btn.login-form-button.uploadbtn.ant-btn-primary {
+    width: 60%;
+    font-weight: 500;
+    height: 36px;
+    background-color: #637be7 !important;
+    background: none;
+}
+button.ant-btn.login-form-button.choosefilebtn.ant-btn-primary {
+    width: 100%;
+    font-weight: 500;
+    height: 37px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #637be7 !important;
+    background: none;
+
+}
+.fileupload-section {
+    /* text-align: center; */
+    display: flex;
+    box-shadow:0 1px 20px #0000001a;
+    border-radius: 21px;
+    margin: 30px 17px 30px 17px;
+}
+p.nofiletext {
+    margin-bottom: 0;
+    margin-left: 37px;
+    line-height: 38px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: black;
+}
+.fileupload-section{
+    position: relative;
+}
+.fileupload-section .ant-upload-list.ant-upload-list-text {
+    position: absolute;
+    right: 46px;
+    top: 0;
+}
+.fileupload-section .ant-upload-list-item-error i.anticon.anticon-close {
+    position: absolute;
+    right: -33px;
+}
+button.ant-btn.login-form-button.choosefilebtn.ant-btn-primary:hover{
+    border-color: #637be7 !important;
+}
+.centeralignprob{
+    width: 50%;
+    margin: 0 auto;
+}
+.formbtnpres{
+    width: 362px;
+    margin: 0 auto;
+}
+@media only screen and (min-width:360px) and (max-width: 973px) {
+    .centeralignprob{
+        width: 100%;
+        margin: 0 auto;
+    }
+    button.ant-btn.login-form-button.uploadbtn.ant-btn-primary {
+        width: 90%;
+    }
+    .formbtnpres{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .selectcategory .ant-select{
+        width: 81%;
+    }
+}

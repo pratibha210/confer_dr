@@ -1,0 +1,232 @@
+.associateclinics {
+    height: 30%;
+}
+.associateclinicstitle p{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.cityclinicdropdown {
+    text-align: center;
+    /* padding-top: 50px; */
+}
+.cityselectoptn .ant-select-selection {
+    border: none;
+    border-bottom: 1px solid #bfbfbf;
+    border-radius: 0px;
+    background-color: transparent;
+    padding-left: 37px;
+    position: relative;
+}
+.cityselectoptn input::placeholder{
+    color: #a99f9f;
+    font-size: 13px;
+    font-family: 'Poppins',sans-serif;
+}
+.cityselectoptn .ant-select-selection::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url('../../images/City.png');
+    left: 0;
+    /* bottom: 0; */
+}
+.clinicsteps .ant-steps{
+    display: none;
+}
+.stepbutn {
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+}
+.clinicsteps {
+    position: relative;
+    height: 82%;
+}
+.stepcontent{
+    padding: 20px;
+}
+p.crdtitle {
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #56565a;
+    margin-bottom: 5px;
+}
+h4.clinicname {
+    font-size: 18px;
+    color: #56565a;
+    font-weight: 500;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+}
+
+.clinicaddress img {
+    width: 15px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+.cardarea .ant-collapse-bordered{
+    border: none;
+    background-color: transparent;
+}
+.cardarea {
+    /* padding: 20px; */
+    border: none;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+.cardarea .ant-collapse-item {
+    border-radius: 0px !important;
+    border: none !important;
+}
+.cardarea .ant-collapse-header{
+    padding: 0px !important;
+}
+.cardarea .ant-card-bordered{
+    border: none !important;
+}
+/* .dr_profile{
+
+} */
+.dr_profileimg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: 
+    #f8f8f8
+    url('../../images/search.png');
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: 44%;
+    background-position: center;
+}
+.dr_profileimg img{
+    width: 50%;
+}
+p.dr_name {
+    font-size: 18px;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+p.dr_designation {
+    color: #848484;
+    font-family: poppins;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+.rqstbutn{
+    text-align: right;
+}
+.daytime{
+    font-size: 13px;
+}
+.daytime img {
+    width: 15px;
+}
+.rqstbutn button[type="button"]{
+    background-color: #fbd000;
+    border: #fbd000;
+    color: #fff;
+}
+.daytime {
+    font-size: 12px;
+    color: #848484;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+}
+img.arrowbutn {
+    width: 20px;
+}
+.nxtprvbutn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #7356aa,#6a64c9, #6278e3,#6379e6);
+    border: none;
+    box-shadow: 0 0 12px 0 #00000045;
+}
+.nxtprvbutn.ant-btn:hover, .nxtprvbutn.ant-btn:active, .nxtprvbutn.ant-btn:focus {
+    background-color: #6278e4 !important;
+}
+.notifctn-sms {
+    background: #eafff8;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.notifctn-sms p {
+    margin-bottom: 0;
+    color: #4fc193;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+}
+.notifctn-sms p i {
+    padding-right: 8px;
+    font-size: 20px;
+    margin-top: -5px;
+}
+.notifctn-sms p .anticon svg{
+    margin-bottom: -2px;
+}
+.errorsms{
+    background: #fff0f2;
+}
+.errorsms p{
+    color: #e22b2b;
+}
+.cityselectoptn .ant-select-selection__placeholder {
+    font-family: poppins;
+    font-size: 14px;
+    color: #a09f9f;
+    line-height: 10px;
+}
+.cityselectoptn .ant-select-selection__rendered{
+    margin-left: 0px;
+}
+.cityselectoptn.ant-select{
+    width: 400px;
+}
+p.clinicaddress {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .dr_profileimg {
+        width: 100%;
+        height: 60px;
+    }
+    .cityselectoptn.ant-select{
+        width: 100%;
+    }
+    .daytime img {
+        width: 12px;
+    }
+    .daytime {
+        font-size: 11px;
+    }
+    p.dr_name {
+        font-size: 15px;
+    }
+    .notifctn-sms p{
+        font-size: 11px;
+    }
+    .notifctn-sms p .anticon svg {
+        margin-bottom: -3px;
+    }
+}

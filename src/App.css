@@ -1,0 +1,26 @@
+body , html , #root , .App , .conferdr{
+  height: 100%;
+}
+/* body{
+  background-color: #dad6d62b !important;
+}
+div#root{
+  width: 28%;
+  margin: 0 auto;
+  background: white;
+}
+@media only screen and (min-width:360px) and (max-width: 973px) {
+  div#root{
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+  }
+} */
+  @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

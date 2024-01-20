@@ -1,0 +1,59 @@
+
+/* -----Edit profile css start----- */
+.feildrow{
+    display: flex;
+}
+.usernamediv{
+    width: 50%;
+    padding: 10px;
+}
+.conferdr.editprofile .ant-select-selection--single{
+    width: 451px;
+    border:none;
+    border-bottom: 1px solid #d9d9d9;
+}
+.editprofile-save-button{
+    width: 15%;
+    border-radius: 32px;  
+    height: 42px;
+    font-size: 15px;
+    margin-bottom: 3px;
+    float:right;
+    letter-spacing: 0.5px;
+    /* text-transform: capitalize; */
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    background: linear-gradient(to left, #7356aa,#6a64c9, #6278e3,#6379e6);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.12)
+}
+.conferdr.editprofile .loginFormNew{
+    height: 100%;
+}
+
+/* -----Edit profile css end----- */
+
+/*------------------ Responsive------------------ */
+
+@media only screen and (min-width:360px) and (max-width: 973px) {
+    
+    p.heading{
+        width: 100%;
+    }
+    .conferdr.editprofile .ant-select-selection--single{
+        width: 275px;
+    }
+    .conferdr.editprofile .ant-select.ant-select-enabled{
+        width: 275px !important ;
+    }
+    .usernamediv{
+        width: 100%;
+    }
+    .feildrow{
+        display: block;
+    }
+    .editprofile-save-button{
+        width: 31%;
+        height: 38px;
+    }
+}
+

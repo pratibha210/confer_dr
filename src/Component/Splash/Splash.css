@@ -1,0 +1,156 @@
+.conferdr {
+    background-color: #fbfcff;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.conferdr.splashscreenconferdr{
+    background-color: #37b1ef;
+}
+/*------------------------------------first step start----------------------------------*/
+.conferdr-slide img {
+    width: 100%;
+}
+.firstStepcontent {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.conferdr-slide {
+    width: 312px;
+    margin-top: 25px;
+}
+.conferdr-slide h2{
+    padding: 0 25px 0 25px;
+font-size: 22px;
+text-align: center;
+font-family: 'Poppins',sans-serif;
+font-weight: 500;
+margin-top: 75px;
+line-height: 28px;
+color: white;
+}
+/*-----------------------------------first step end-----------------------------------------*/
+/*-------------------------------- second step start--------------------------------  */
+p.subpara {
+    padding: 0 15px 0 15px;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    line-height: 17px;
+    font-size: 13px;
+}
+/*------------------------------- second step end------------------------------------------- */
+/*--------------------------------- fourth step start--------------------------------------- */
+.conferdr-slide h2.singleline{
+font-size: 20px;
+text-align: center;
+font-family: 'Poppins',sans-serif;
+font-weight: 500;
+margin-top: 75px;
+
+}
+/*---------------------------------- fourth step end---------------------------------------- */
+/*----------------------------------steps part start---------------------------------------- */
+.bottomDrawersteps {
+    background-color: #37b1ef;
+    height: 100%;
+    width:500px;
+    margin:0 auto;
+}
+button.ant-btn.skipbtn {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+   border: none;
+   box-shadow: none;
+   font-size: 13px;
+   letter-spacing: 0.5px;
+    box-shadow: none;
+}
+.bottomDrawersteps .steps-content{
+    position: relative;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.bottomDrawersteps .ant-steps-item-tail:after{
+    display: none;
+}
+.bottomDrawersteps .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+    background: #dadee9;
+}
+.bottomDrawersteps .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot{
+    background: linear-gradient(to right, #00589a,#045f92 , #1c9eaf);
+}
+.bottomDrawersteps .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot{
+    background: linear-gradient(to right, #00589a,#045f92 , #1c9eaf)
+}
+.bottomDrawersteps .ant-steps{
+    width: 90px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.bottomDrawersteps .ant-steps-dot .ant-steps-item-icon{
+    margin-left: 0;
+}
+.bottomDrawersteps .ant-steps-label-vertical .ant-steps-item{
+    overflow: hidden;
+}
+.bottomDrawersteps .ant-steps-dot .ant-steps-item-icon .ant-steps-icon-dot {
+    top: 6px;
+    height: 8px;
+    width: 8px;
+}
+.bottomDrawersteps span.ant-steps-icon-dot {
+    top: 5px;
+}
+.bottomDrawersteps .ant-steps-dot .ant-steps-item-content{
+    width: 0px;
+}
+.bottomDrawersteps .steps-action{
+    /* display: flex;
+    justify-content: space-between; */
+}
+.bottomDrawersteps .steps-action button {
+    background: transparent;
+    color: white;
+     font-weight: 600;
+    border: none;
+    box-shadow: none;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding-right: 0;
+}
+.conferdr .ant-steps-dot .ant-steps-item-process .ant-steps-item-icon .ant-steps-icon-dot{
+    top: 6px;
+}
+.bottomDrawersteps .steps-action {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.bottomDrawersteps .ant-steps{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/*----------------------------------steps part end--------------------------------*/
+/*------------------ Responsive------------------ */
+@media only screen and (min-width:360px) and (max-width: 973px) {
+    .bottomDrawersteps {
+        background-color: #37b1ef;
+        height: 100%;
+        width:100%;
+        margin:0 auto;
+    }
+    .conferdr{
+        overflow-x: scroll;
+        margin-bottom: 65px;
+    }
+}

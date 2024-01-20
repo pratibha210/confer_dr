@@ -1,0 +1,423 @@
+.formtab .ant-tabs-nav.ant-tabs-nav-animated {
+    width: 100%;
+}
+.formtab .ant-tabs-tab {
+    width: 50%;
+    height: 35px;
+}
+.dashboardtab .formtab .ant-tabs-nav-scroll{
+    padding-right: 0;
+}
+.tabsectionPart.formtab{
+    height: auto;
+}
+.formtab .ant-tabs.ant-tabs-top.ant-tabs-card.ant-tabs-no-animation{
+    height: 100%;
+}
+.tabsectionPart.formtab .ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar {
+    width: 16%;
+    margin: 0 auto;
+    /* padding-top: 22px; */
+    /* padding-bottom: 22px; */
+    padding-left: 0px;
+    padding-right: 0px;
+    position: fixed;
+    bottom: 6%;
+    left: 20%;
+    right: 0;
+    margin: 0 auto;
+    border-bottom: none;
+}
+.tabsectionPart.formtab .ant-tabs-nav-container{
+    height: 35px!important;
+    border: 1px solid #f3f3f3ba;
+    background: transparent;
+    box-shadow: 2px 5px 15px #e0e4fc9e;
+}
+.tabsectionPart.formtab .ant-tabs-tab{
+    font-size: 14px;
+    line-height: 33px !important;
+}
+.tabsectionPart.formtab .ant-tabs-tab{
+    background: transparent;
+}
+.formtoppart{
+    margin: 0;
+}
+.formaddsign{
+color: rgb(255, 255, 255);
+    background: #637be7;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    line-height: 24px;
+    padding-right: 1px;
+    font-size: 13px;
+    border: 3px solid white;
+}
+.formtoppart .ant-badge .ant-scroll-number-custom-component{
+    position: absolute;
+    top: 60px;
+    right: 8px;
+}
+p.formheader {
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000c2;
+    margin: 9px 0 25px 50px;
+    margin-left: 21px !important;
+    padding-top: 6px;
+}
+.sectionnamePart.formfill .arrow_back {
+    font-size: 20px;
+    color: white;
+    margin: 0 12px 0 18px;
+}
+.formtoppart p.profiletext {
+    margin-left: 20px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ababab;
+    /* margin-bottom: 0; */
+}
+.formtoppart i.anticon.anticon-edit.editicon{
+    margin-left: 8px;
+}
+.loginFormNew .ant-input:focus{
+    box-shadow: none;
+}
+.medicationcard .loginFormNew {
+    padding: 0;
+}
+/* .forminputfields {
+    padding: 11px 20px 0 20px;
+} */
+.form_section {
+    /* height: 420px; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.forminputfields .loginFormNew input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    font-family: 'Poppins',sans-serif;
+    /* padding-left: 22px;
+    padding-bottom: 16px; */
+    background-color: transparent;
+}
+.nofield input::placeholder{
+    color:#bfbfbf;
+    font-weight: 100 !important;  
+}
+.secondheadline{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-left: 53px !important;
+}
+.medicationcard {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color: #fff;
+    /* box-shadow: 0 0 5px 0 #00000015; */
+    /* margin-bottom: 20px;
+    margin-top: 20px; */
+}
+.selectcategory{
+    margin-bottom: 30px;
+}
+.upload_btn{
+    margin-top: 30px;
+}
+.medicationaddbutn {
+    text-align: center;
+    padding-left: 30px;
+}
+.inercardarea{
+    background-color: #fff;
+}
+.medicationaddbutn [type="button"]{
+    background-color: #01c798;
+    border: #01c798;
+    color: #fff;
+    padding: 0 10px;
+    height: 27px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 0px;
+}
+.medicationaddbutn .anticon{
+    line-height: 0;
+}
+.medicationaddbutn svg{
+    margin-top: 4.5px;
+}
+/* .medicationcard .forminputfields{
+    padding:11px 5px 0 5px;
+} */
+.timeinput input{
+    border-bottom: 1px solid #d9d9d9 !important;
+    /* border-radius: 4px !important; */
+    padding-top: 0px;
+    padding-bottom: 0px !important;
+    padding-left: 12px !important;
+}
+.timeinput input::placeholder{
+    color:#bfbfbf;
+    font-weight: 100 !important;
+    font-size: 14px;
+    /* font-family: ; */
+    font-family: 'Roboto',sans-serif;
+}
+.medicationcard .ant-select-selection{
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    border-radius: 0px;
+}
+.medicationcard  .ant-select-selection__placeholder {
+    line-height: 10px;
+}
+/* ul.nofield{
+    padding: 0px;
+}
+ul.nofield li {
+    display: inline-block;
+} */
+.nofield input[type='text']{
+    padding: 0;
+    line-height: 31px;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9 !important;
+    position: relative;
+}
+.nofield input[type="text"]:focus {
+    outline: none;
+}
+.frmbutn{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.frmbutn [type="button"] {
+    background: linear-gradient(to left, #7356aa,#6a64c9, #6278e3,#6379e6);
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    line-height: 0px;
+}
+/* .nofield {
+    position: relative;
+}
+.nofield::after{
+    content: '/';
+    position: absolute;
+    width: 8px;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999999;
+    color: #d9d9d9;
+} */
+.Patientdetail{
+    height: 100%;
+    overflow-y: auto !important;
+    background-color: #fbfcff;
+}
+/* modal css */
+.ant-modal-footer{
+    display: none;
+}
+.addmedicinebutn {
+    width: 100%;
+    text-align: right;
+}
+/* modal css */
+.medicinelisting{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.medicindetail{
+    position: relative;
+}
+button.menubarpopover {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+}
+.menubarpopover img {
+    width: 15px;
+    margin: 0 auto;
+    display: flex;
+}
+.medicinnme{
+    font-size: 15px;
+    font-family: 'poppins';
+    font-weight: 400;
+    margin-bottom: 3px;
+    color: #493975;
+}
+.doses {
+    margin-bottom: 0;
+    font-family: 'poppins';
+    color: #7d7d7d;
+}
+.popovercontent p{
+    margin-bottom: 0;
+}
+.deletmnu, .editmnu {
+    padding: 0;
+    border: none;
+}
+.cnclbtn {
+    margin-right: 8px;
+}
+.ant-popover {
+    z-index: 0;
+}
+/* 19/06/2019 */
+.dradvice{
+    margin-top: 20px;
+}
+.flowupdate .ant-calendar-picker {
+    width: 100%;
+}
+.dradvice p.formheader {
+    margin: 0px !important;
+    padding-bottom: 20px;
+}
+.prescriptiontxtarea {
+    margin-top: 30px;
+}
+.dradvice .ant-select-selection,.dradvice .ant-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    border-radius: 0px;
+}
+.dradvice .ant-input:focus{
+    box-shadow: none;
+}
+.nmelist{
+    margin: 5px 0;
+}
+/* 27/06/2019 */
+.patentdetlhedng{
+    display: flex;
+    align-items: center;
+}
+.arrowbutn {
+    padding-right: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+@media only screen and (min-width:360px) and (max-width: 973px) {
+    /* .cnclbtn {
+        margin-right: 8px;
+    } */
+    .cnclbtn.ant-btn:hover, .cnclbtn.ant-btn:focus{
+        border-color: #dfdfdf;
+        color: rgba(0, 0, 0, 0.65)
+    }
+    .medicinelisting{
+        width: 85%;
+        /* margin: 0 auto;
+        margin-top: 10px; */
+    }
+    .medicinecard .ant-card-body{
+        padding: 12px;
+       
+    }
+    button.menubarpopover {
+        /* position: absolute; */
+        top: 6px;
+        /* right: 0;
+        border: none;
+        box-shadow: none;
+        padding: 0px; */
+    }
+
+    .deletmnu{
+        margin-bottom: 0;
+    }
+    .deletmnu, .editmnu {
+        padding: 0;
+        border: none;
+    }
+    /* .deletmnu span, .editmnu span{
+        padding-left: 5px;
+    } */
+
+
+    /* .medicinnme{
+        font-size: 15px;
+        font-family: 'poppins';
+        font-weight: 400;
+        margin-bottom: 3px;
+        color: #493975;
+    }
+    .doses {
+        margin-bottom: 0;
+        font-family: 'poppins';
+        color: #7d7d7d;
+    } */
+    .svebtn {
+        background-color: #657ce7;
+        color: #fff;
+        border: #657ce7;
+    }
+    .svebtn.ant-btn:hover{
+        background-color: #657ce7;
+        color: #fff;
+    }
+    .tabsectionPart.formtab .ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar {
+        width: 44%;
+        margin: 0 auto;
+        /* padding-top: 22px; */
+        /* padding-bottom: 22px; */
+        padding-left: 0px;
+        padding-right: 0px;
+        position: fixed;
+        bottom: 13%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        border-bottom: none;
+    }
+    .fileupload-section{
+        width: 90%;
+        margin: 30px 17px 30px 17px;
+    }
+    .tabsectionPart.formtab{
+        height: 100%;
+    }
+    }
+@media screen and (min-width:320px) and (max-width:767px){
+    .dradvice .ant-select-enabled {
+        margin-bottom: 30px;
+    }
+    .medicationaddbutn{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .medicationcard{
+        width: 100%;
+        padding: 0px;
+    }
+    /* p.formheader{
+        padding-top: 6px;
+    } */
+    .tabsectionPart.formtab{
+        padding-bottom: 33%;
+    }
+}

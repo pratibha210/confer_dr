@@ -1,0 +1,182 @@
+.appointmentbuttongroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* margin-top: 12px; */
+    margin-top: 0px;
+    margin-right: 6px;
+}
+.directappointmentcard .tabcard {
+    padding: 0 7px;
+    position: relative;
+    min-height: 85px;
+    max-height: 85px;
+}
+.directappointmentcard .appointmentbuttongroup{
+    margin-top: 0px !important;
+}
+.directappointmentcard .ant-card-body .ant-row.alignadjust{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.directappointmentcard .ant-card-body {
+    padding: 10px 0px 0 11px !important;
+}
+button.ant-btn.forwardbtn.ant-btn-primary {
+    background-color: #6477e2;
+    font-size: 12px;
+    height: 26px;
+    line-height: 0;
+    border: none;
+    margin-right: 6px;
+    width: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.ant-btn.forwardbtn.ant-btn-primary:hover {
+    background-color: #7356ab;
+}
+button.ant-btn.acceptbtn.ant-btn-primary:hover {
+    background-color: #38a03c;
+}
+button.ant-btn.acceptbtn.ant-btn-primary {
+    background-color: #4CAF50;
+    font-size: 12px;
+    height: 26px;
+    line-height: 0;
+    border: none;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.forwardicon,img.accepticon {
+    width: auto;
+    height: 14px;
+}
+.mycliniccard.directappointmentcard .ant-card-body{
+    padding: 6px 0px 7px 11px;
+
+}
+.directselectpart {
+    display: flex;
+    border-top: 1px solid #f2eeee;
+    margin-top: 13px;
+    padding: 15px;;
+    /* padding-top: 23px;
+    padding-bottom: 18px; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 8px 0 #00000017;
+    background-color: #fff;
+    z-index: 9;
+    margin: 0 auto;
+    top: 100%;
+    border-radius: 6px;
+    
+}
+.directselectpart .ant-select.ant-select-enabled {
+    width: 100%;
+    margin-right: 12px;
+    height: 25px;
+}
+.directselectpart button.ant-btn.forwardbtn.ant-btn-primary{
+    height: 31px;
+    width: auto;
+    display: unset;
+}
+/* 19/06/2019 */
+.smsheading{
+    display: flex;
+    align-items: center;
+}
+.smsheading sapn{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+img.successicn{
+    width: 20px;
+    height: auto;
+}
+img.cntcticn {
+    width: 15px;
+}
+.cntnctdtl{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.calndsmsicn{
+    width: 14px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .calndsmsicn {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} */
+img.cntcticn {
+    width: 100%;
+    height: 100%;
+}
+.cntnctdtl span {
+    padding-left: 10px;
+    color: rgb(185, 185, 185);
+}
+.modalbutn{
+    text-align: right;
+}
+.okbtn.ant-btn {
+    /* background: linear-gradient(to left, #7356aa,#6a64c9, #6278e3,#6379e6); */
+    color: #fff;
+    background-color: #01c798;
+    border-color: #01c798;
+}
+.ant-modal-close .anticon{
+    font-size: 14px;
+}
+p.accptndfrwdsms {
+    font-size: 11px;
+    line-height: 16px;
+    margin: 8px 0 0;
+    color: #888888;
+}
+
+@media only screen and (min-width:360px) and (max-width: 973px) {
+    /* .directappointmentcards{
+        padding: 0;
+    } */
+    p.smsheading {
+        margin-top: 15px;
+    }
+    .directappointmentcards .directselectpart{
+        display: unset !important;
+    }
+    .directselectpart .ant-select-selection{
+        width: 200px !important;
+    }
+    .directselectpart button.ant-btn.forwardbtn.ant-btn-primary{
+        float: right;
+    }
+    .categorydetls {
+        margin-top: 15px;
+    } 
+    .alignadjust {
+        display: flex;
+        align-items: center;
+    }
+}
